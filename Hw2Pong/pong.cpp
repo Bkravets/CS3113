@@ -13,6 +13,10 @@
 	#define RESOURCE_FOLDER "NYUCodebase.app/Contents/Resources/"
 #endif
 
+//code by Brian Kravets
+
+
+
 SDL_Window* displayWindow;
 GLuint LoadTexture(const char *image_path){
 	SDL_Surface *surface = IMG_Load(image_path);
