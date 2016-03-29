@@ -659,18 +659,7 @@ public:
 							state = WEND_SCREEN;
 						}
 					}
-					//int rightx = entities[i].x + entities[i].width / 2;
-					//int righty = entities[i].y + entities[i].width / 2;
-					//worldToTileCoordinates(rightx, righty, &rightx, &righty);
-					//if (rightx > 20){ rightx = 20; }
-					//if (rightx < 0){ rightx = 0; }
-					//if (righty < 0){ righty = 0; }
-					//if (levelData[righty][rightx] != 0){
-					//	entities[i].x -= (entities[i].x + entities[i].width / 2 - (rightx* TILE_SIZE));
-					//	entities[i].velocity_x = 0;
-					//	entities[i].collidedRight = true;
-					//	//entities[0].y = -12;
-					//}
+					
 
 					entities[i].Render(&program);
 				}
